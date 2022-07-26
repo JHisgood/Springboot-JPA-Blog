@@ -11,7 +11,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 import org.hibernate.annotations.CreationTimestamp;
-import org.hibernate.type.TrueFalseType;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

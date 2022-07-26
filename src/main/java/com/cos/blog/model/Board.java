@@ -31,7 +31,7 @@ import lombok.NoArgsConstructor;
 public class Board {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY) // auti_increment
+	@GeneratedValue(strategy = GenerationType.IDENTITY) // auto_increment
 	private int id;
 	
 	@Column(nullable = false, length = 100)
