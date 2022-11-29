@@ -14,14 +14,13 @@ import lombok.Getter;
 //principal (접근 주체) = 세션처럼 사용 = Spring Security Context 에 보관됨
 @Getter
 public class PrincipalDetail implements UserDetails{
-
-	private static final long serialVersionUID = 7645618956884452156L;
+	private User user;
 	
 	public PrincipalDetail(User user) {
 		this.user = user;
 	}
 	
-	private User user;
+	
 
 	public User getUser() {
 		return user;
